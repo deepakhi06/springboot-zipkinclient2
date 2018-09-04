@@ -1,0 +1,8 @@
+server:
+   port: 8282
+spring:
+   application:
+      name: zipkin-Client-2
+   zipkin:
+      baseUrl: http://localhost:9411/
+      
